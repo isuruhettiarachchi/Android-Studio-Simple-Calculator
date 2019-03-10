@@ -18,4 +18,5 @@
     <string name="multiply">*</string>
     <string name="substract">-</string>
     <string name="add">+</string>
+    <string name="title">CODEFEST - Calculator</string>
 </resources>

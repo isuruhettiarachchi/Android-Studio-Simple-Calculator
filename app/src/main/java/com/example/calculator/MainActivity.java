@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toolbar;
 
 
 // mXparser for solve math expression
@@ -27,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = findViewById(R.id.my_toolbar);
+        // adding logo to toolbar crashes the app 😥
+//        toolbar.setLogo(R.drawable.codefest_logo);
 
         // assign buttons
         buttonOne = findViewById(R.id.buttonOne);
